@@ -1,0 +1,190 @@
+[
+  {
+    "id": "0",
+    "rels": {
+      "spouses": [
+        "dc0d6e7c-649e-46fc-9091-a738cd8683ee"
+      ],
+      "children": [
+        "e68ebb5b-f972-4120-b9fd-45689ccb5978",
+        "1e7ad41d-a004-4f3c-bdde-69d18b5fcfd8"
+      ],
+      "father": "d3632206-b3ba-4637-8f44-78fb391a6eb9",
+      "mother": "f64d7128-5c11-4926-9b87-f0c4d1650ca5"
+    },
+    "data": {
+      "first name": "Kannan",
+      "last name": "Sethuraman",
+      "birthday": 1970,
+      "avatar": "https://static8.depositphotos.com/1009634/988/v/950/depositphotos_9883921-stock-illustration-no-user-profile-picture.jpg",
+      "gender": "M"
+    }
+  },
+  {
+    "id": "dc0d6e7c-649e-46fc-9091-a738cd8683ee",
+    "data": {
+      "gender": "F",
+      "first name": "Prasanna",
+      "last name": "Siripurapu",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": [
+        "0"
+      ],
+      "children": [
+        "e68ebb5b-f972-4120-b9fd-45689ccb5978",
+        "1e7ad41d-a004-4f3c-bdde-69d18b5fcfd8"
+      ],
+      "father": "f5e8e173-1b1f-4b42-adb3-b8d80914ff48",
+      "mother": "48f71a14-2217-4b1d-b23a-729290f53330"
+    }
+  },
+  {
+    "id": "e68ebb5b-f972-4120-b9fd-45689ccb5978",
+    "data": {
+      "gender": "M",
+      "first name": "Vinayak",
+      "last name": "Kannan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "0",
+      "mother": "dc0d6e7c-649e-46fc-9091-a738cd8683ee"
+    }
+  },
+  {
+    "id": "1e7ad41d-a004-4f3c-bdde-69d18b5fcfd8",
+    "data": {
+      "gender": "M",
+      "first name": "Aditya",
+      "last name": "Kannan",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "dc0d6e7c-649e-46fc-9091-a738cd8683ee",
+      "mother": "0"
+    }
+  },
+  {
+    "id": "f5e8e173-1b1f-4b42-adb3-b8d80914ff48",
+    "data": {
+      "gender": "M",
+      "first name": "Kondala Rao",
+      "last name": "Siripurapu",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "dc0d6e7c-649e-46fc-9091-a738cd8683ee"
+      ],
+      "spouses": [
+        "48f71a14-2217-4b1d-b23a-729290f53330"
+      ]
+    }
+  },
+  {
+    "id": "48f71a14-2217-4b1d-b23a-729290f53330",
+    "data": {
+      "gender": "F",
+      "first name": "Lakshmi",
+      "last name": "Byreddi",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "dc0d6e7c-649e-46fc-9091-a738cd8683ee"
+      ],
+      "spouses": [
+        "f5e8e173-1b1f-4b42-adb3-b8d80914ff48"
+      ]
+    }
+  },
+  {
+    "id": "d3632206-b3ba-4637-8f44-78fb391a6eb9",
+    "data": {
+      "gender": "M",
+      "first name": "Sethuraman",
+      "last name": "Narayanan",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "0",
+        "32e9003f-0efb-49a0-8469-e50f54d37bd5"
+      ],
+      "spouses": [
+        "f64d7128-5c11-4926-9b87-f0c4d1650ca5"
+      ]
+    }
+  },
+  {
+    "id": "f64d7128-5c11-4926-9b87-f0c4d1650ca5",
+    "data": {
+      "gender": "F",
+      "first name": "Bhanumati",
+      "last name": "XXX",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": [
+        "d3632206-b3ba-4637-8f44-78fb391a6eb9"
+      ],
+      "children": [
+        "0",
+        "32e9003f-0efb-49a0-8469-e50f54d37bd5"
+      ]
+    }
+  },
+  {
+    "id": "32e9003f-0efb-49a0-8469-e50f54d37bd5",
+    "data": {
+      "gender": "F",
+      "first name": "Ramya",
+      "last name": "Kannan",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "d3632206-b3ba-4637-8f44-78fb391a6eb9",
+      "mother": "f64d7128-5c11-4926-9b87-f0c4d1650ca5",
+      "spouses": [
+        "dccd3a96-01ce-4635-9b3d-fb3ae8c33906"
+      ],
+      "children": [
+        "d9fe377a-a9d4-4ceb-9715-981ed6e6327c"
+      ]
+    }
+  },
+  {
+    "id": "dccd3a96-01ce-4635-9b3d-fb3ae8c33906",
+    "data": {
+      "gender": "M",
+      "first name": "Venkatramana",
+      "last name": "Kannan",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": [
+        "32e9003f-0efb-49a0-8469-e50f54d37bd5"
+      ],
+      "children": [
+        "d9fe377a-a9d4-4ceb-9715-981ed6e6327c"
+      ]
+    }
+  },
+  {
+    "id": "d9fe377a-a9d4-4ceb-9715-981ed6e6327c",
+    "data": {
+      "gender": "F",
+      "first name": "Shivani",
+      "last name": "Kannan",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "32e9003f-0efb-49a0-8469-e50f54d37bd5",
+      "mother": "dccd3a96-01ce-4635-9b3d-fb3ae8c33906"
+    }
+  }
+]
