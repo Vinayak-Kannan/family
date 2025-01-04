@@ -15,7 +15,7 @@ function create(data) {
         store,
         svg,
         card_dim: {w:220,h:70,text_x:75,text_y:15,img_w:60,img_h:60,img_x:5,img_y:5},
-        card_display: [d => `${d.data["label"]}`, d => d.data["desc"]],
+        card_display: [d => `${d.data["fn"]}`, d => d.data["ln"]],
         mini_tree: true,
         link_break: false
     })
@@ -49,7 +49,7 @@ function create(data) {
     const all_select_options = []
     data.forEach(d => {
         if (all_select_options.find(d0 => d0.value === d["id"])) return
-        all_select_options.push({label: `${d.data["label"]}`, value: d["id"]})
+        all_select_options.push({label: `${d.data["fn"] + " " + d.data["ln"]}`, value: d["id"]})
     })
     const search_cont = d3.select(document.querySelector("#FamilyChart")).append("div")
         .attr("style", "position: absolute; top: 10px; left: 10px; width: 150px; z-index: 1000;")
@@ -105,6 +105,7 @@ export default class FamilyTree extends React.Component {
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-expect-error
         return <div ref={this.cont} style={{
+            margin: "5vw",
             width: "90vw",
             height: "90vh"
         }} className="f3 f3-cont" id="FamilyChart"></div>;
