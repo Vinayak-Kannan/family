@@ -1,6 +1,7 @@
 [
   {
     "id": "0",
+    "main": false,
     "rels": {
       "spouses": [
         "dc0d6e7c-649e-46fc-9091-a738cd8683ee"
@@ -13,10 +14,11 @@
       "mother": "f64d7128-5c11-4926-9b87-f0c4d1650ca5"
     },
     "data": {
-      "first name": "Kannan",
-      "last name": "Sethuraman",
-      "birthday": 1970,
-      "avatar": "https://static8.depositphotos.com/1009634/988/v/950/depositphotos_9883921-stock-illustration-no-user-profile-picture.jpg",
+      "fn": "Kannan",
+      "ln": "Sethuraman",
+      "label": "Kannan Sethuraman",
+      "avatar": null,
+      "desc": "",
       "gender": "M"
     }
   },
@@ -24,10 +26,12 @@
     "id": "dc0d6e7c-649e-46fc-9091-a738cd8683ee",
     "data": {
       "gender": "F",
-      "first name": "Prasanna",
-      "last name": "Siripurapu",
+      "label": "Prasanna Siripurapu",
+      "fn": "Prasanna",
+      "ln": "Siripurapu",
+      "desc": "",
       "birthday": "",
-      "avatar": ""
+      "avatar": null
     },
     "rels": {
       "spouses": [
@@ -45,8 +49,9 @@
     "id": "e68ebb5b-f972-4120-b9fd-45689ccb5978",
     "data": {
       "gender": "M",
-      "first name": "Vinayak",
-      "last name": "Kannan",
+      "fn": "Vinayak",
+      "ln": "Kannan",
+      "label": "Vinayak Kannan",
       "birthday": "",
       "avatar": ""
     },
@@ -59,8 +64,9 @@
     "id": "1e7ad41d-a004-4f3c-bdde-69d18b5fcfd8",
     "data": {
       "gender": "M",
-      "first name": "Aditya",
-      "last name": "Kannan",
+      "fn": "Aditya",
+      "ln": "Kannan",
+      "label": "Aditya Kannan",
       "avatar": ""
     },
     "rels": {
@@ -72,8 +78,9 @@
     "id": "f5e8e173-1b1f-4b42-adb3-b8d80914ff48",
     "data": {
       "gender": "M",
-      "first name": "Kondala Rao",
-      "last name": "Siripurapu",
+      "fn": "Kondala Rao",
+      "ln": "Siripurapu",
+      "label": "Kondala Rao Siripurapu",
       "avatar": ""
     },
     "rels": {
@@ -89,8 +96,9 @@
     "id": "48f71a14-2217-4b1d-b23a-729290f53330",
     "data": {
       "gender": "F",
-      "first name": "Lakshmi",
-      "last name": "Byreddi",
+      "fn": "Lakshmi",
+      "ln": "Byreddi",
+      "label": "Lakshmi Byreddi",
       "avatar": ""
     },
     "rels": {
@@ -106,8 +114,9 @@
     "id": "d3632206-b3ba-4637-8f44-78fb391a6eb9",
     "data": {
       "gender": "M",
-      "first name": "Sethuraman",
-      "last name": "Narayanan",
+      "fn": "Sethuraman",
+      "ln": "Narayanan",
+      "label": "Sethuraman Narayanan",
       "avatar": ""
     },
     "rels": {
@@ -124,8 +133,9 @@
     "id": "f64d7128-5c11-4926-9b87-f0c4d1650ca5",
     "data": {
       "gender": "F",
-      "first name": "Bhanumati",
-      "last name": "XXX",
+      "fn": "Bhanumati",
+      "ln": "XXX",
+      "label": "Bhanumati XXX",
       "avatar": ""
     },
     "rels": {
@@ -142,8 +152,9 @@
     "id": "32e9003f-0efb-49a0-8469-e50f54d37bd5",
     "data": {
       "gender": "F",
-      "first name": "Ramya",
-      "last name": "Kannan",
+      "fn": "Ramya",
+      "ln": "Kannan",
+      "label": "Ramya Kannan",
       "avatar": ""
     },
     "rels": {
@@ -161,8 +172,9 @@
     "id": "dccd3a96-01ce-4635-9b3d-fb3ae8c33906",
     "data": {
       "gender": "M",
-      "first name": "Venkatramana",
-      "last name": "Kannan",
+      "fn": "Venkatramana",
+      "ln": "Kannan",
+      "label": "Venkatramana Kannan",
       "avatar": ""
     },
     "rels": {
@@ -178,8 +190,9 @@
     "id": "d9fe377a-a9d4-4ceb-9715-981ed6e6327c",
     "data": {
       "gender": "F",
-      "first name": "Shivani",
-      "last name": "Kannan",
+      "fn": "Shivani",
+      "ln": "Kannan",
+      "label": "Shivani Kannan",
       "avatar": ""
     },
     "rels": {

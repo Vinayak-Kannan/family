@@ -89,21 +89,24 @@ function create(data) {
     }
 }
 
+fetch('src/family.json')
+    .then(res => res.json())
+    .then(data => create(data))
+    .catch(err => console.error(err))
+
 export default class FamilyTree extends React.Component {
     cont = React.createRef();
 
     componentDidMount() {
         if (!this.cont.current) return;
-
-        fetch('/Users/vinayakkannan/Desktop/family/family/src/family.json')
-            .then(res => res.json())
-            .then(data => create(data))
-            .catch(err => console.error(err))
     }
 
     render() {
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-expect-error
-        return <div className="f3 f3-cont" id="FamilyChart" ref={this.cont}></div>;
+        return <div ref={this.cont} style={{
+            width: "90vw",
+            height: "90vh"
+        }} className="f3 f3-cont" id="FamilyChart"></div>;
     }
 }
