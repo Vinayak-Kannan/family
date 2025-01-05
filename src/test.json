@@ -1,0 +1,342 @@
+[
+  {
+    "id": "bhanumatis_dad",
+    "data": {
+      "gender": "M",
+      "fn": "Krishna",
+      "ln": "Swami",
+      "label": "Bhanumati's Dad",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "bhanumati",
+        "sarasa",
+        "parimal",
+        "lalitha",
+        "mani",
+        "devaki",
+        "dadima",
+        "usha",
+        "viji"
+      ],
+      "spouses": [
+        "bhanumatis_mom"
+      ]
+    }
+  },
+  {
+    "id": "bhanumatis_mom",
+    "data": {
+      "gender": "F",
+      "fn": "Minakshi",
+      "ln": "Nagalakshmi",
+      "label": "Bhanumati's Mom",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "bhanumati",
+        "sarasa",
+        "parimal",
+        "lalitha",
+        "mani",
+        "devaki",
+        "dadima",
+        "usha",
+        "viji"
+      ],
+      "spouses": [
+        "bhanumatis_dad"
+      ]
+    }
+  },
+  {
+    "id": "sarasa",
+    "data": {
+      "gender": "F",
+      "fn": "Sarasa",
+      "ln": "",
+      "label": "Sarasa (Oldest Sister)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "bhanumatis_dad",
+      "mother": "bhanumatis_mom",
+      "spouses": [],
+      "children": [
+        "ravi",
+        "prasad",
+        "sarasa_daughter_1",
+        "umaka"
+      ]
+    }
+  },
+  {
+    "id": "parimal",
+    "data": {
+      "gender": "F",
+      "fn": "Parimal",
+      "ln": "",
+      "label": "Parimal (Second Oldest Sister)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "bhanumatis_dad",
+      "mother": "bhanumatis_mom",
+      "spouses": [
+        "balu"
+      ],
+      "children": [
+        "gita",
+        "sundar",
+        "jaykumar",
+        "ramji"
+      ]
+    }
+  },
+  {
+    "id": "lalitha",
+    "data": {
+      "gender": "F",
+      "fn": "Lalitha",
+      "ln": "",
+      "label": "Lalitha (Third Oldest Sister)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "bhanumatis_dad",
+      "mother": "bhanumatis_mom",
+      "spouses": [],
+      "children": [
+        "lalitha_son_1",
+        "shreedar",
+        "shri_ram",
+        "suganthi"
+      ]
+    }
+  },
+  {
+    "id": "mani",
+    "data": {
+      "gender": "M",
+      "fn": "Mani",
+      "ln": "",
+      "label": "Mani (Only Brother)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "bhanumatis_dad",
+      "mother": "bhanumatis_mom",
+      "spouses": [],
+      "children": [
+        "jaeshri",
+        "shuba",
+        "mani_son"
+      ]
+    }
+  },
+  {
+    "id": "devaki",
+    "data": {
+      "gender": "F",
+      "fn": "Devaki",
+      "ln": "",
+      "label": "Devaki (Sister)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "bhanumatis_dad",
+      "mother": "bhanumatis_mom",
+      "spouses": [],
+      "children": [
+        "malani",
+        "gayatri",
+        "saiganesh"
+      ]
+    }
+  },
+  {
+    "id": "dadima",
+    "data": {
+      "gender": "F",
+      "fn": "Dadima",
+      "ln": "",
+      "label": "Dadima (Sister)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "bhanumatis_dad",
+      "mother": "bhanumatis_mom",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "usha",
+    "data": {
+      "gender": "F",
+      "fn": "Usha",
+      "ln": "",
+      "label": "Usha (Next Youngest Sister)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "bhanumatis_dad",
+      "mother": "bhanumatis_mom",
+      "spouses": [
+        "natarajan"
+      ],
+      "children": [
+        "badri",
+        "dwaraka"
+      ]
+    }
+  },
+  {
+    "id": "viji",
+    "data": {
+      "gender": "F",
+      "fn": "Viji",
+      "ln": "",
+      "label": "Viji (Youngest Sister)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "bhanumatis_dad",
+      "mother": "bhanumatis_mom",
+      "spouses": [],
+      "children": [
+        "karthik",
+        "pavitra"
+      ]
+    }
+  },
+  {
+    "id": "ravi",
+    "data": {
+      "gender": "M",
+      "fn": "Ravi",
+      "ln": "",
+      "label": "Ravi (Sales)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "",
+      "mother": "sarasa",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "prasad",
+    "data": {
+      "gender": "M",
+      "fn": "Prasad",
+      "ln": "",
+      "label": "Prasad (Marketing in Automotive)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "",
+      "mother": "sarasa",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "sarasa_daughter_1",
+    "data": {
+      "gender": "F",
+      "fn": "Estranged",
+      "ln": "Daughter",
+      "label": "Sarasa's Estranged Daughter",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "",
+      "mother": "sarasa",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "umaka",
+    "data": {
+      "gender": "F",
+      "fn": "Umaka",
+      "ln": "",
+      "label": "Umaka",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "",
+      "mother": "sarasa",
+      "spouses": [
+        "moreli"
+      ],
+      "children": [
+        "mukund"
+      ]
+    }
+  },
+  {
+    "id": "balu",
+    "data": {
+      "gender": "M",
+      "fn": "Balu",
+      "ln": "",
+      "label": "Balu (Parimal's Husband)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "",
+      "mother": "",
+      "spouses": [
+        "parimal"
+      ],
+      "children": [
+        "gita",
+        "sundar",
+        "jaykumar",
+        "ramji"
+      ]
+    }
+  },
+  {
+    "id": "moreli",
+    "data": {
+      "gender": "M",
+      "fn": "Moreli",
+      "ln": "",
+      "label": "Moreli (Umaka's Husband)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "",
+      "mother": "",
+      "spouses": [
+        "umaka"
+      ],
+      "children": [
+        "mukund"
+      ]
+    }
+  },
+  {
+    "id": "mukund",
+    "data": {
+      "gender": "M",
+      "fn": "Mukund",
+      "ln": "",
+      "label": "Mukund (Software)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "moreli",
+      "mother": "umaka",
+      "spouses": [],
+      "children": []
+    }
+  }
+]

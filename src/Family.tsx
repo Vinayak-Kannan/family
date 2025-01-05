@@ -3,7 +3,79 @@ import React from "react";
 import f3 from 'family-chart';  // npm install family-chart@0.2.1 or yarn add family-chart@0.2.1
 import 'family-chart/styles/family-chart.css';
 
-function create(data) {
+function createRelsToAdd(data) {
+    const to_add_spouses = [];
+    for (let i = 0; i < data.length; i++) {
+        const d = data[i];
+        if (d.rels.children && d.rels.children.length > 0) {
+            if (!d.rels.spouses) d.rels.spouses = [];
+            const is_father = d.data.gender === "M";
+            let spouse;
+
+            d.rels.children.forEach(d0 => {
+                const child = data.find(d1 => d1.id === d0);
+                if (child == undefined) {
+                    console.log(d0)
+                }
+
+                if (child.rels[is_father ? 'father' : 'mother'] !== d.id) return
+                if (child.rels[!is_father ? 'father' : 'mother']) return
+                if (!spouse) {
+                    spouse = createToAddSpouse(d);
+                    d.rels.spouses.push(spouse.id);
+                }
+                spouse.rels.children.push(child.id);
+                child.rels[!is_father ? 'father' : 'mother'] = spouse.id;
+            });
+        }
+    }
+    to_add_spouses.forEach(d => data.push(d));
+    return data
+
+    function generateUUID() {
+        let d = new Date().getTime();
+        let d2 = (performance && performance.now && (performance.now() * 1000)) || 0;//Time in microseconds since page-load or 0 if unsupported
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+            let r = Math.random() * 16;
+            if(d > 0){//Use timestamp until depleted
+                r = (d + r)%16 | 0;
+                d = Math.floor(d/16);
+            } else {//Use microseconds since page-load if supported
+                r = (d2 + r)%16 | 0;
+                d2 = Math.floor(d2/16);
+            }
+            return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+        });
+    }
+
+    function createNewPerson({data, rels}) {
+        return {id: generateUUID(), data: data || {}, rels: rels || {}, to_add: undefined
+        }
+    }
+
+    function createToAddSpouse(d) {
+        const spouse = createNewPerson({
+            data: {gender: d.data.gender === "M" ? "F" : "M"},
+            rels: {spouses: [d.id], children: []}
+        });
+        spouse.to_add = true;
+        to_add_spouses.push(spouse);
+        return spouse
+    }
+}
+
+
+function create(oldData) {
+    // Error checking
+    const data = []
+    oldData.forEach(d => {
+        if (d != undefined && d.rels) {
+            data.push(d)
+        }
+    })
+
+    createRelsToAdd(data)
+
     const cont = document.querySelector("div#FamilyChart")  // make sure to create div with id FamilyChart
     const store = f3.createStore({
         data,
@@ -21,7 +93,7 @@ function create(data) {
     })
 
     store.setOnUpdate(props => f3.view(store.getTree(), svg, Card, props || {}))
-    store.updateMainId('Q43274')  // Charles III
+    store.updateMainId('0')  // Kannan Sethuraman
     store.updateTree({initial: true})
 
     // with person_id this function will update the tree
@@ -49,7 +121,9 @@ function create(data) {
     const all_select_options = []
     data.forEach(d => {
         if (all_select_options.find(d0 => d0.value === d["id"])) return
-        all_select_options.push({label: `${d.data["fn"] + " " + d.data["ln"]}`, value: d["id"]})
+        if (d.data && d.data["fn"] && d.data["ln"]) {
+            all_select_options.push({label: `${d.data["fn"] + " " + d.data["ln"]}`, value: d["id"]})
+        }
     })
     const search_cont = d3.select(document.querySelector("#FamilyChart")).append("div")
         .attr("style", "position: absolute; top: 10px; left: 10px; width: 150px; z-index: 1000;")

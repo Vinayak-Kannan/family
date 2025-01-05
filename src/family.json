@@ -10,7 +10,7 @@
         "e68ebb5b-f972-4120-b9fd-45689ccb5978",
         "1e7ad41d-a004-4f3c-bdde-69d18b5fcfd8"
       ],
-      "father": "d3632206-b3ba-4637-8f44-78fb391a6eb9",
+      "father": "sethuraman_narayanan",
       "mother": "f64d7128-5c11-4926-9b87-f0c4d1650ca5"
     },
     "data": {
@@ -111,7 +111,7 @@
     }
   },
   {
-    "id": "d3632206-b3ba-4637-8f44-78fb391a6eb9",
+    "id": "sethuraman_narayanan",
     "data": {
       "gender": "M",
       "fn": "Sethuraman",
@@ -126,7 +126,9 @@
       ],
       "spouses": [
         "f64d7128-5c11-4926-9b87-f0c4d1650ca5"
-      ]
+      ],
+      "father": "krinsha_narayanan",
+      "mother": "ramaiyer_sitalakshmi"
     }
   },
   {
@@ -134,13 +136,13 @@
     "data": {
       "gender": "F",
       "fn": "Bhanumati",
-      "ln": "XXX",
-      "label": "Bhanumati XXX",
+      "ln": "Krishnaswami",
+      "label": "Bhanumati Krishnaswami",
       "avatar": ""
     },
     "rels": {
       "spouses": [
-        "d3632206-b3ba-4637-8f44-78fb391a6eb9"
+        "sethuraman_narayanan"
       ],
       "children": [
         "0",
@@ -158,7 +160,7 @@
       "avatar": ""
     },
     "rels": {
-      "father": "d3632206-b3ba-4637-8f44-78fb391a6eb9",
+      "father": "sethuraman_narayanan",
       "mother": "f64d7128-5c11-4926-9b87-f0c4d1650ca5",
       "spouses": [
         "dccd3a96-01ce-4635-9b3d-fb3ae8c33906"
@@ -198,6 +200,616 @@
     "rels": {
       "father": "32e9003f-0efb-49a0-8469-e50f54d37bd5",
       "mother": "dccd3a96-01ce-4635-9b3d-fb3ae8c33906"
+    }
+  },
+  {
+    "id": "krinsha_narayanan",
+    "data": {
+      "gender": "M",
+      "fn": "Krinsha",
+      "ln": "Narayanan",
+      "label": "Tata's Dad",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "sethuraman_narayanan",
+        "kaliyani_jayaraman",
+        "rada_ramamurti"
+      ],
+      "spouses": [
+        "ramaiyer_sitalakshmi"
+      ]
+    }
+  },
+  {
+    "id": "ramaiyer_sitalakshmi",
+    "data": {
+      "gender": "F",
+      "fn": "Ramaiyer",
+      "ln": "Sitalakshmi",
+      "label": "Tata's Mom",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "sethuraman_narayanan",
+        "kaliyani_jayaraman",
+        "rada_ramamurti"
+      ],
+      "spouses": [
+        "krinsha_narayanan"
+      ]
+    }
+  },
+  {
+    "id": "kaliyani_jayaraman",
+    "data": {
+      "gender": "F",
+      "fn": "Kaliyani",
+      "ln": "Jayaraman",
+      "label": "Eldest Sister",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "krinsha_narayanan",
+      "mother": "ramaiyer_sitalakshmi",
+      "spouses": [
+        "jayaraman_ramaiyer"
+      ],
+      "children": [
+        "nariseeman",
+        "vijaya",
+        "periaswamy",
+        "gauri",
+        "revathi",
+        "padma"
+      ]
+    }
+  },
+  {
+    "id": "jayaraman_ramaiyer",
+    "data": {
+      "gender": "M",
+      "fn": "Jayaraman",
+      "ln": "Ramaiyer",
+      "label": "Jayaraman Jayaraman",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "",
+      "mother": "",
+      "spouses": [
+        "kaliyani_jayaraman"
+      ],
+      "children": [
+        "nariseeman",
+        "vijaya",
+        "periaswamy",
+        "gauri",
+        "revathi",
+        "padma"
+      ]
+    }
+  },
+  {
+    "id": "rada_ramamurti",
+    "data": {
+      "gender": "F",
+      "fn": "Rada",
+      "ln": "Ramamurti",
+      "label": "Rada Ramamurti",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "krinsha_narayanan",
+      "mother": "ramaiyer_sitalakshmi",
+      "spouses": [],
+      "children": [
+        "vidya",
+        "kala",
+        "shreykar"
+      ]
+    }
+  },
+  {
+    "id": "nariseeman",
+    "data": {
+      "gender": "M",
+      "fn": "Nariseeman",
+      "ln": "",
+      "label": "Nariseeman",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "jayaraman_ramaiyer",
+      "mother": "kaliyani_jayaraman",
+      "spouses": [],
+      "children": [
+        "nariseeman_daughter_london",
+        "nariseeman_daughter_bangalore"
+      ]
+    }
+  },
+  {
+    "id": "vijaya",
+    "data": {
+      "gender": "F",
+      "fn": "Vijaya",
+      "ln": "",
+      "label": "Vijaya",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "jayaraman_ramaiyer",
+      "mother": "kaliyani_jayaraman",
+      "spouses": [],
+      "children": [
+        "vijaya_son",
+        "vijaya_daughter_iit_professor"
+      ]
+    }
+  },
+  {
+    "id": "periaswamy",
+    "data": {
+      "gender": "M",
+      "fn": "Periaswamy",
+      "ln": "",
+      "label": "Periaswamy",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "jayaraman_ramaiyer",
+      "mother": "kaliyani_jayaraman",
+      "spouses": [],
+      "children": [
+        "periaswamy_son_germany"
+      ]
+    }
+  },
+  {
+    "id": "gauri",
+    "data": {
+      "gender": "F",
+      "fn": "Gauri",
+      "ln": "",
+      "label": "Gauri",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "jayaraman_ramaiyer",
+      "mother": "kaliyani_jayaraman",
+      "spouses": [
+        "venkatrami"
+      ],
+      "children": [
+        "hari",
+        "kavya"
+      ]
+    }
+  },
+  {
+    "id": "revathi",
+    "data": {
+      "gender": "F",
+      "fn": "Revathi",
+      "ln": "",
+      "label": "Revathi",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "jayaraman_ramaiyer",
+      "mother": "kaliyani_jayaraman",
+      "spouses": [],
+      "children": [
+        "karthik",
+        "revathi_daughter_microbiology_phd"
+      ]
+    }
+  },
+  {
+    "id": "padma",
+    "data": {
+      "gender": "F",
+      "fn": "Padma",
+      "ln": "",
+      "label": "Padma",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "jayaraman_ramaiyer",
+      "mother": "kaliyani_jayaraman",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "venkatrami",
+    "data": {
+      "gender": "M",
+      "fn": "Venkatrami",
+      "ln": "",
+      "label": "Venkatrami",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "",
+      "mother": "",
+      "spouses": [
+        "gauri"
+      ],
+      "children": [
+        "hari",
+        "kavya"
+      ]
+    }
+  },
+  {
+    "id": "hari",
+    "data": {
+      "gender": "M",
+      "fn": "Hari",
+      "ln": "",
+      "label": "Hari",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "venkatrami",
+      "mother": "gauri",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "kavya",
+    "data": {
+      "gender": "F",
+      "fn": "Kavya",
+      "ln": "",
+      "label": "Kavya",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "venkatrami",
+      "mother": "gauri",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "karthik",
+    "data": {
+      "gender": "M",
+      "fn": "Karthik",
+      "ln": "",
+      "label": "Karthik",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "",
+      "mother": "revathi",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "revathi_daughter_microbiology_phd",
+    "data": {
+      "gender": "F",
+      "fn": "Revathi's",
+      "ln": "Daughter",
+      "label": "Revathi's Daughter (Microbiology PhD)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "",
+      "mother": "revathi",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "periaswamy_son_germany",
+    "data": {
+      "gender": "M",
+      "fn": "Periaswamy's",
+      "ln": "Son",
+      "label": "Periaswamy's Son (Studying in Germany)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "periaswamy",
+      "mother": "",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "vijaya_son",
+    "data": {
+      "gender": "M",
+      "fn": "Vijaya's",
+      "ln": "Son",
+      "label": "Vijaya's Son",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "",
+      "mother": "vijaya",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "vijaya_daughter_iit_professor",
+    "data": {
+      "gender": "F",
+      "fn": "Vijaya's",
+      "ln": "Daughter",
+      "label": "Vijaya's Daughter (IIT Professor)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "",
+      "mother": "vijaya",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "nariseeman_daughter_london",
+    "data": {
+      "gender": "F",
+      "fn": "Nariseeman's",
+      "ln": "Daughter 1",
+      "label": "Nariseeman's Daughter (CPA in London)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "nariseeman",
+      "mother": "",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "nariseeman_daughter_bangalore",
+    "data": {
+      "gender": "F",
+      "fn": "Nariseeman's",
+      "ln": "Daughter 2",
+      "label": "Nariseeman's Daughter (Google in Bangalore)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "nariseeman",
+      "mother": "",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "vidya",
+    "data": {
+      "gender": "F",
+      "fn": "Vidya",
+      "ln": "",
+      "label": "Vidya (School Teacher)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "",
+      "mother": "rada_ramamurti",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "kala",
+    "data": {
+      "gender": "F",
+      "fn": "Kala",
+      "ln": "",
+      "label": "Kala",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "",
+      "mother": "rada_ramamurti",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "shreykar",
+    "data": {
+      "gender": "M",
+      "fn": "Shreykar",
+      "ln": "",
+      "label": "Shreykar (Dubai Accountant)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "rada_ramamurti",
+      "mother": "",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "jayaraman_ramaiyer_brother",
+    "data": {
+      "gender": "M",
+      "fn": "Eldest Sister's Husband's",
+      "ln": "Brother",
+      "label": "Eldest Sister's Husband's Brother",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "",
+      "mother": "",
+      "spouses": [],
+      "children": [
+        "babu",
+        "ganesh",
+        "ramesh",
+        "kumar",
+        "raji"
+      ]
+    }
+  },
+  {
+    "id": "babu",
+    "data": {
+      "gender": "M",
+      "fn": "Babu",
+      "ln": "",
+      "label": "Babu (CFO of Automotive Group)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "jayaraman_ramaiyer_brother",
+      "mother": "",
+      "spouses": [],
+      "children": [
+        "babu_son_michigan"
+      ]
+    }
+  },
+  {
+    "id": "ganesh",
+    "data": {
+      "gender": "M",
+      "fn": "Ganesh",
+      "ln": "",
+      "label": "Ganesh",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "jayaraman_ramaiyer_brother",
+      "mother": "",
+      "spouses": [],
+      "children": [
+        "ganesh_daughter1",
+        "ganesh_daughter2"
+      ]
+    }
+  },
+  {
+    "id": "ramesh",
+    "data": {
+      "gender": "M",
+      "fn": "Ramesh",
+      "ln": "",
+      "label": "Ramesh",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "jayaraman_ramaiyer_brother",
+      "mother": "",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "kumar",
+    "data": {
+      "gender": "M",
+      "fn": "Kumar",
+      "ln": "",
+      "label": "Kumar",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "jayaraman_ramaiyer_brother",
+      "mother": "",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "raji",
+    "data": {
+      "gender": "F",
+      "fn": "Raji",
+      "ln": "",
+      "label": "Raji",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "jayaraman_ramaiyer_brother",
+      "mother": "",
+      "spouses": [
+        "nagarajan"
+      ],
+      "children": []
+    }
+  },
+  {
+    "id": "nagarajan",
+    "data": {
+      "gender": "M",
+      "fn": "Nagarajan",
+      "ln": "",
+      "label": "Nagarajan (Famous Chartered Accountant)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "",
+      "mother": "",
+      "spouses": [
+        "raji"
+      ],
+      "children": []
+    }
+  },
+  {
+    "id": "babu_son_michigan",
+    "data": {
+      "gender": "M",
+      "fn": "Babu's",
+      "ln": "Son",
+      "label": "Babu's Son (PhD in Canton, Michigan)",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "babu",
+      "mother": "",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "ganesh_daughter1",
+    "data": {
+      "gender": "F",
+      "fn": "Ganesh's",
+      "ln": "Daughter 1",
+      "label": "Ganesh's Daughter 1",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ganesh",
+      "mother": "",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "ganesh_daughter2",
+    "data": {
+      "gender": "F",
+      "fn": "Ganesh's",
+      "ln": "Daughter 2",
+      "label": "Ganesh's Daughter 2",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ganesh",
+      "mother": "",
+      "spouses": [],
+      "children": []
     }
   }
 ]
