@@ -163,7 +163,7 @@ function create(oldData) {
     }
 }
 
-fetch('./src/family.json')
+fetch('https://raw.githubusercontent.com/Vinayak-Kannan/family/refs/heads/main/src/family.json')
     .then(res => res.json())
     .then(data => create(data))
     .catch(err => console.error(err))
