@@ -63,7 +63,6 @@
     "rels": {
       "father": "bhanumatis_dad",
       "mother": "bhanumatis_mom",
-      "spouses": [],
       "children": [
         "ravi",
         "prasad",
@@ -107,7 +106,6 @@
     "rels": {
       "father": "bhanumatis_dad",
       "mother": "bhanumatis_mom",
-      "spouses": [],
       "children": [
         "lalitha_son_1",
         "shreedar",
@@ -128,7 +126,6 @@
     "rels": {
       "father": "bhanumatis_dad",
       "mother": "bhanumatis_mom",
-      "spouses": [],
       "children": [
         "jaeshri",
         "shuba",
@@ -148,7 +145,6 @@
     "rels": {
       "father": "bhanumatis_dad",
       "mother": "bhanumatis_mom",
-      "spouses": [],
       "children": [
         "malani",
         "gayatri",
@@ -167,9 +163,7 @@
     },
     "rels": {
       "father": "bhanumatis_dad",
-      "mother": "bhanumatis_mom",
-      "spouses": [],
-      "children": []
+      "mother": "bhanumatis_mom"
     }
   },
   {
@@ -205,7 +199,6 @@
     "rels": {
       "father": "bhanumatis_dad",
       "mother": "bhanumatis_mom",
-      "spouses": [],
       "children": [
         "karthik",
         "pavitra"
@@ -222,10 +215,7 @@
       "avatar": ""
     },
     "rels": {
-      "father": "",
-      "mother": "sarasa",
-      "spouses": [],
-      "children": []
+      "mother": "sarasa"
     }
   },
   {
@@ -238,10 +228,7 @@
       "avatar": ""
     },
     "rels": {
-      "father": "",
-      "mother": "sarasa",
-      "spouses": [],
-      "children": []
+      "mother": "sarasa"
     }
   },
   {
@@ -254,10 +241,7 @@
       "avatar": ""
     },
     "rels": {
-      "father": "",
-      "mother": "sarasa",
-      "spouses": [],
-      "children": []
+      "mother": "sarasa"
     }
   },
   {
@@ -270,7 +254,6 @@
       "avatar": ""
     },
     "rels": {
-      "father": "",
       "mother": "sarasa",
       "spouses": [
         "moreli"
@@ -290,8 +273,6 @@
       "avatar": ""
     },
     "rels": {
-      "father": "",
-      "mother": "",
       "spouses": [
         "parimal"
       ],
@@ -313,8 +294,6 @@
       "avatar": ""
     },
     "rels": {
-      "father": "",
-      "mother": "",
       "spouses": [
         "umaka"
       ],
@@ -334,9 +313,266 @@
     },
     "rels": {
       "father": "moreli",
-      "mother": "umaka",
-      "spouses": [],
-      "children": []
+      "mother": "umaka"
+    }
+  },
+  {
+    "id": "gita",
+    "data": {
+      "gender": "F",
+      "fn": "Gita",
+      "ln": "",
+      "label": "Gita",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "balu",
+      "mother": "parimal"
+    }
+  },
+  {
+    "id": "sundar",
+    "data": {
+      "gender": "M",
+      "fn": "Sundar",
+      "ln": "",
+      "label": "Sundar",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "balu",
+      "mother": "parimal"
+    }
+  },
+  {
+    "id": "jaykumar",
+    "data": {
+      "gender": "M",
+      "fn": "Jaykumar",
+      "ln": "",
+      "label": "Jaykumar",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "balu",
+      "mother": "parimal"
+    }
+  },
+  {
+    "id": "ramji",
+    "data": {
+      "gender": "M",
+      "fn": "Ramji",
+      "ln": "",
+      "label": "Ramji",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "balu",
+      "mother": "parimal"
+    }
+  },
+  {
+    "id": "lalitha_son_1",
+    "data": {
+      "gender": "M",
+      "fn": "Lalitha's",
+      "ln": "Son 1",
+      "label": "Lalitha's Son 1",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "lalitha"
+    }
+  },
+  {
+    "id": "shreedar",
+    "data": {
+      "gender": "M",
+      "fn": "Shreedar",
+      "ln": "",
+      "label": "Shreedar",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "lalitha"
+    }
+  },
+  {
+    "id": "shri_ram",
+    "data": {
+      "gender": "M",
+      "fn": "Shri Ram",
+      "ln": "",
+      "label": "Shri Ram",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "lalitha"
+    }
+  },
+  {
+    "id": "suganthi",
+    "data": {
+      "gender": "F",
+      "fn": "Suganthi",
+      "ln": "",
+      "label": "Suganthi",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "lalitha"
+    }
+  },
+  {
+    "id": "jaeshri",
+    "data": {
+      "gender": "F",
+      "fn": "Jaeshri",
+      "ln": "",
+      "label": "Jaeshri",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mani"
+    }
+  },
+  {
+    "id": "shuba",
+    "data": {
+      "gender": "F",
+      "fn": "Shuba",
+      "ln": "",
+      "label": "Shuba",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mani"
+    }
+  },
+  {
+    "id": "mani_son",
+    "data": {
+      "gender": "M",
+      "fn": "Mani's",
+      "ln": "Son",
+      "label": "Mani's Son",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mani"
+    }
+  },
+  {
+    "id": "malani",
+    "data": {
+      "gender": "F",
+      "fn": "Malani",
+      "ln": "",
+      "label": "Malani",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "devaki"
+    }
+  },
+  {
+    "id": "gayatri",
+    "data": {
+      "gender": "F",
+      "fn": "Gayatri",
+      "ln": "",
+      "label": "Gayatri",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "devaki"
+    }
+  },
+  {
+    "id": "saiganesh",
+    "data": {
+      "gender": "M",
+      "fn": "Saiganesh",
+      "ln": "",
+      "label": "Saiganesh",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "devaki"
+    }
+  },
+  {
+    "id": "natarajan",
+    "data": {
+      "gender": "M",
+      "fn": "Natarajan",
+      "ln": "",
+      "label": "Natarajan (Usha's Husband)",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": [
+        "usha"
+      ],
+      "children": [
+        "badri",
+        "dwaraka"
+      ]
+    }
+  },
+  {
+    "id": "badri",
+    "data": {
+      "gender": "M",
+      "fn": "Badri",
+      "ln": "",
+      "label": "Badri",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "natarajan",
+      "mother": "usha"
+    }
+  },
+  {
+    "id": "dwaraka",
+    "data": {
+      "gender": "F",
+      "fn": "Dwaraka",
+      "ln": "",
+      "label": "Dwaraka",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "natarajan",
+      "mother": "usha"
+    }
+  },
+  {
+    "id": "karthik",
+    "data": {
+      "gender": "M",
+      "fn": "Karthik",
+      "ln": "",
+      "label": "Karthik",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "viji"
+    }
+  },
+  {
+    "id": "pavitra",
+    "data": {
+      "gender": "F",
+      "fn": "Pavitra",
+      "ln": "",
+      "label": "Pavitra",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "viji"
     }
   }
 ]
