@@ -163,7 +163,7 @@ function create(oldData) {
     }
 }
 
-fetch('src/family.json')
+fetch('./src/family.json')
     .then(res => res.json())
     .then(data => create(data))
     .catch(err => console.error(err))
